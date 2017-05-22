@@ -57,10 +57,14 @@ input[type="submit"]:active {
 h1{
   font-size:5vh;
 }
+th
+{
+  height:30px;
+}
 tr:nth-child(even)
 {
     background:#006ce5;
 }
-tr:nth-child(uneven) {
+tr:nth-child(odd) {
     background: #22ffff;
 }
