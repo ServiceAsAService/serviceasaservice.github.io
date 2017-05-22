@@ -4,7 +4,10 @@
 }
 body{
   background-image: url('http://afasiaarchzine.com/wp-content/uploads/2016/03/E2A-.-School-Building-Hofacker-.-Zurich-1.jpg');
-  background-size:cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 99.99vh;
   
 }
 #topBar{
