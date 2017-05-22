@@ -59,7 +59,8 @@ h1{
 }
 th
 {
-  height:30px;
+    background: rgb(168, 198, 250);
+    padding: 5px;
 }
 tr:nth-child(even)
 {
