@@ -43,12 +43,12 @@ input{
   margin:5px;
   padding:3px;
 }
-input[type="submit"],a#loginNote {
+input[type="submit"], .button {
     transition: all 0.3s linear;
     background: #006ce5;
     border: none;
 }
-input[type="submit"]:active, a#loginNote:active{
+input[type="submit"]:active, .button:active{
    background: #fff;
    transition: all 0.5s linear;
 }
