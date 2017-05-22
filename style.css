@@ -72,5 +72,5 @@ tr:nth-child(even)
      background: rgb(201, 241, 253);
 }
 tr:nth-child(odd) {
-    background: #22ffff;
+    background: #fff;
 }
