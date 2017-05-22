@@ -69,7 +69,7 @@ td
 }
 tr:nth-child(even)
 {
-    background:#006ce5;
+     background: rgb(201, 241, 253);
 }
 tr:nth-child(odd) {
     background: #22ffff;
