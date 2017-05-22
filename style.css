@@ -30,6 +30,10 @@ body{
     color: #fff;
     text-align: center;
 }
+input{
+  border-radius:5px;
+  box-shadow: #000 0px 0px 5px;
+}
 input[type="submit"] {
     transition: all 0.3s linear;
     background: #006ce5;
