@@ -8,7 +8,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   min-height: 99.99vh;
-  
 }
 #topBar{
   height:10vh;
@@ -23,6 +22,7 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
+  min-height: 80vh;
 }
 #dialogWindow {
     background: rgb(2,31,84);
