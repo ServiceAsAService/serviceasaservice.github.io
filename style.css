@@ -19,11 +19,14 @@ body{
 #loginNote{
   float:left;
 }
+#contentBox{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 #dialogWindow {
     margin-left: 25vw;
     margin-top: 25vh;
-    width: 50vw;
-    height: 50vh;
     background: rgb(2,31,84);
     box-shadow: #000 0px 0px 10px;
     border-radius: 10px;
