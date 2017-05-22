@@ -18,9 +18,6 @@ body{
   align-items:center;
   justify-content: space-between;
 }
-#loginNote{
-  float:left;
-}
 #contentBox{
   display:flex;
   justify-content:center;
@@ -46,12 +43,12 @@ input{
   margin:5px;
   padding:3px;
 }
-input[type="submit"] {
+input[type="submit"],a#loginNote {
     transition: all 0.3s linear;
     background: #006ce5;
     border: none;
 }
-input[type="submit"]:active {
+input[type="submit"]:active, a#loginNote:active{
    background: #fff;
    transition: all 0.5s linear;
 }
