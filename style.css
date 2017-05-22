@@ -57,10 +57,10 @@ input[type="submit"]:active {
 h1{
   font-size:5vh;
 }
-tr:nth-child(2n)
+tr:nth-child(even)
 {
     background:#006ce5;
 }
-tr:nth-child(2n+1) {
+tr:nth-child(uneven) {
     background: #22ffff;
 }
