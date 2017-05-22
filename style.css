@@ -45,3 +45,6 @@ input[type="submit"]:active {
    background: #fff;
    transition: all 0.5s linear;
 }
+h1{
+  font-size:5vh;
+}
