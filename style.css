@@ -57,3 +57,10 @@ input[type="submit"]:active {
 h1{
   font-size:5vh;
 }
+tr:nth-child(2n)
+{
+    background:#006ce5;
+}
+tr:nth-child(2n+1) {
+    background: #22ffff;
+}
