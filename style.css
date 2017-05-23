@@ -47,8 +47,10 @@ input, .button {
 }
 .button{
     transition: all 0.3s linear;
+    min-width: 90px;
+    padding:3px;
     background: #9ebdef;
-    color:#fff;
+    color:#000000;
 }
 input[type="submit"]:active, .button:active{
    background: #fff;
