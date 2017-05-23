@@ -1,33 +1,37 @@
-*{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin:0;
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
 }
-body{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7d/ASParis_Upper_School_Building.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 99.99vh;
+
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7d/ASParis_Upper_School_Building.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 99.99vh;
 }
-#topBar{
-  height:10vh;
-  background-color:rgb(2,31,84);
-  color:#fff;
-  padding:10px;
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
+
+#topBar {
+    height: 10vh;
+    background-color: rgb(2, 31, 84);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-#contentBox{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height: 80vh;
-  padding: 10px;
+
+#contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 10px;
 }
+
 #dialogWindow {
-    background: rgb(2,31,84);
-    box-shadow: #000 0px 0px 10px;
+    background: rgb(2, 31, 84);
+    box-shadow: #000 0 0 10px;
     border-radius: 10px;
     color: #fff;
     display: flex;
@@ -36,65 +40,74 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 10px 20px 10px 20px;
-    margin:2vh;
+    margin: 2vh;
 }
-input, .button , select , option {
-    text-decoration:none;
+
+input, .button, select, option {
+    text-decoration: none;
     border: none;
-    border-radius:5px;
-    margin:5px;
-    padding:3px;
-    box-shadow: #000 0px 0px 5px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    box-shadow: #000 0 0 5px;
 }
-.button{
+
+.button {
     transition: all 0.3s linear;
-    padding:3px 8px;
+    padding: 3px 8px;
     font-weight: bold;
     background: #9ebdef;
-    color:#000000;
+    color: #000000;
 }
-input[type="submit"]:active, .button:active{
-   background: #fff;
-   transition: all 0.5s linear;
+
+input[type="submit"]:active, .button:active {
+    background: #fff;
+    transition: all 0.5s linear;
 }
-h1{
-  font-size:5vh;
-  margin:10px 0px 10px 0px;
+
+h1 {
+    font-size: 5vh;
+    margin: 10px 0 10px 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-th>i{
-  font-size: 150%;
-  justify-content: baseline;
-  display: inline-block;
-  vertical-align: middle;
+
+th > i {
+    font-size: 150%;
+    justify-content: baseline;
+    display: inline-block;
+    vertical-align: middle;
 }
-th
-{
+
+th {
     background: rgb(168, 198, 250);
     padding: 5px;
 }
-td
-{
+
+td {
     padding: 2px 5px 2px 5px;
 }
-tr:nth-child(even)
-{
-     background: rgb(201, 241, 253);
+
+tr:nth-child(even) {
+    background: rgb(201, 241, 253);
 }
+
 tr:nth-child(odd) {
     background: #fff;
 }
-.centerFlexBox, .dateWrapper,.dateYearRow,.dateDayBox {
+
+.centerFlexBox, .dateWrapper, .dateYearRow, .dateDayBox {
     align-content: center;
     justify-content: center;
     align-self: center;
     position: relative;
     display: flex;
 }
-.noselect,.dateYearRow,.dateDayBox{
+
+.noselect, .dateYearRow, .dateDayBox {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -102,63 +115,73 @@ tr:nth-child(odd) {
     -ms-user-select: none;
     user-select: none;
 }
-.dateYearRow,.dateMonthRow{
-  justify-content: space-between;
-  display:flex;
+
+.dateYearRow, .dateMonthRow {
+    justify-content: space-between;
+    display: flex;
 }
-.dateWrapper{
-  background: #006ce5;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 5px;
-  display:block;
-  min-width:300px;
-  max-width: 45%;
+
+.dateWrapper {
+    background: #006ce5;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+    min-width: 300px;
+    max-width: 45%;
 }
-.dateDayBox
-{
-  width:12.9%;
-  height:15.4%;
-  padding:1px;
-  cursor:pointer;
-  color:#000;
-  transition:all 0.1s linear;
+
+.dateDayBox {
+    width: 12.9%;
+    height: 15.4%;
+    padding: 1px;
+    cursor: pointer;
+    color: #000;
+    transition: all 0.1s linear;
 }
-.dateMonthBox{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  background: rgb(201, 241, 253);
+
+.dateMonthBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: rgb(201, 241, 253);
 }
+
 .dateDayBox:not(:empty):hover {
-  background: #4b4;
+    background: #4b4;
 }
-.dateMonthButton,.dateYearButton{
-  align-items: center;
-  display: flex;
-  padding:2px;
+
+.dateMonthButton, .dateYearButton {
+    align-items: center;
+    display: flex;
+    padding: 2px;
 }
-.overviewWrapper{
-  display:flex;
-  flex-wrap:wrap;
+
+.overviewWrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
-.overviewWrapper .button{
+
+.overviewWrapper .button {
     display: flex;
     position: relative;
     justify-content: space-around;
     align-items: center;
     flex-flow: row;
-    font-size:150%;
+    font-size: 150%;
 }
-.overviewWrapper .button:after{
-  content:'>';
-  color:#000;
-  font-size:150%;
+
+.overviewWrapper .button:after {
+    content: '>';
+    color: #000;
+    font-size: 150%;
 }
+
 .buttonColumn {
-    margin:10px 0px 10px 0px;
+    margin: 10px 0 10px 0;
     min-width: 45%;
 }
+
 .material-icon {
     font-family: "Material Icons";
     text-rendering: optimizelegibility;
@@ -167,15 +190,18 @@ tr:nth-child(odd) {
     text-transform: none;
     line-height: 1;
 }
+
 #tableHeader {
     text-align: left;
 }
-td > a , th > a {
+
+td > a, th > a {
     color: #000;
     text-decoration: none;
-    font-size:125%;
+    font-size: 125%;
 }
-table{
+
+table {
     width: 100%;
-    border-collapse:collapse;
+    border-collapse: collapse;
 }
