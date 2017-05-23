@@ -109,9 +109,12 @@ tr:nth-child(odd) {
   cursor:pointer;
   color:#000;
   background: rgb(201, 241, 253);
+  transition:all 0.1s linear;
 }
 .dateDayBox:not(:empty):hover {
   background: #4b4;
-  border-radius: 10px;
 }
-
+.dateMonthButton,.dateYearButton{
+  align-items: center;
+  display: flex;
+}
