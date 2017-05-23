@@ -50,9 +50,6 @@ input, .button {
     background: #006ce5;
     color:#fff;
 }
-.buttonColumn{
-  margin:5px 0px 5px 0px;
-}
 input[type="submit"]:active, .button:active{
    background: #fff;
    transition: all 0.5s linear;
@@ -131,4 +128,8 @@ tr:nth-child(odd) {
 }
 .overviewWrapper .button{
   display:flex;
+}
+.buttonColumn {
+    margin: 5px 0px 5px 0px;
+    min-width: 50%;
 }
