@@ -38,7 +38,7 @@ body{
     padding: 10px 20px 10px 20px;
     margin:2vh;
 }
-input, .button {
+input, .button , select , option {
     text-decoration:none;
     border: none;
     border-radius:5px;
