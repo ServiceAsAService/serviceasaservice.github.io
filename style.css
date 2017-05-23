@@ -160,5 +160,6 @@ td > a , th > a {
     font-size:125%;
 }
 table{
+    width: auto;
     border-collapse:collapse;
 }
