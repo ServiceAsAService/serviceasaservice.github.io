@@ -122,4 +122,5 @@ tr:nth-child(odd) {
 .dateMonthButton,.dateYearButton{
   align-items: center;
   display: flex;
+  padding:2px;
 }
