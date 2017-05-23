@@ -76,7 +76,14 @@ tr:nth-child(even)
 tr:nth-child(odd) {
     background: #fff;
 }
-.noselect {
+.centerFlexBox, .dateWrapper,.dateYearRow,.dateDayBox {
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    display: flex;
+}
+.noselect, .dateWrapper,.dateYearRow,.dateDayBox{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -84,3 +91,20 @@ tr:nth-child(odd) {
     -ms-user-select: none;
     user-select: none;
 }
+.dateWrapper{
+  width:300px;
+  height:300px;
+}
+.dateDayBox
+{
+  width:12.9%;
+  height:15.4%;
+  float:left;
+  margin:1px;
+  cursor:pointer;
+}
+.datePickerDayBox:not(:empty):hover {
+  background: #4b4;
+  border-radius: 10px;
+}
+
