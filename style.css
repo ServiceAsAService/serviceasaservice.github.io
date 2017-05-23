@@ -158,3 +158,6 @@ td > a {
     text-decoration: none;
     font-size:125%;
 }
+table{
+    border-collapse:collapse;
+}
