@@ -127,7 +127,15 @@ tr:nth-child(odd) {
   display:flex;
 }
 .overviewWrapper .button{
-  display:flex;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row;
+}
+.overviewWrapper .button:after{
+  content:'>';
+  color:#000;
 }
 .buttonColumn {
     margin: 5px 0px 5px 0px;
