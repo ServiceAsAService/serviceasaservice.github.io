@@ -61,6 +61,10 @@ h1{
   font-size:5vh;
   margin:10px 0px 10px 0px;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 th
 {
     background: rgb(168, 198, 250);
