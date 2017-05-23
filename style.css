@@ -130,5 +130,5 @@ tr:nth-child(odd) {
   display:flex;
 }
 .overviewWrapper .button{
-  width:100%;
+  display:flex;
 }
