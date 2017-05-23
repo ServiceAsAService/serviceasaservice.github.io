@@ -105,11 +105,16 @@ tr:nth-child(odd) {
   width:12.9%;
   height:15.4%;
   float:left;
-  margin:1px;
+  padding:1px;
   cursor:pointer;
   color:#000;
   background: rgb(201, 241, 253);
   transition:all 0.1s linear;
+}
+.dateMonthBox{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 .dateDayBox:not(:empty):hover {
   background: #4b4;
