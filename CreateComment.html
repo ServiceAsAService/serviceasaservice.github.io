@@ -1,35 +1,37 @@
-<html>
-  <head>
-   <link rel="stylesheet" href="style.css"/>
-   <title>Kommentar anlegen</title>
-  </head>
-  <body>
-    <div id="topBar">
-	<a href="overview.html">
-		<b>⟨⟨ Schülerverwaltung</b>
-	</a>
-      <div>
-         Sie sind angemeldet als <b>Frank Müller</b>
-         <a class="button" href="index.html">Logout</a>
-      </div>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Kommentar anlegen</title>
+</head>
+<body>
+<div id="topBar">
+    <a href="overview.html">
+        <b>⟨⟨ Schülerverwaltung</b>
+    </a>
+    <div>
+        Sie sind angemeldet als <b>Frank Müller</b>
+        <a class="button" href="index.html">Logout</a>
     </div>
-    <div id="contentBox">
-      <div id="dialogWindow"> 
+</div>
+<div id="contentBox">
+    <div id="dialogWindow">
         <h1>Kommentar anlegen:</h1>
-	      <h2>für <b>Frühh Leonardo 5a</b></h2>
-	        <input type="date" value="24.05.2017">
-		<select>
-        		<option>5a</option>
-			<option>10a</option>
-         	 	<option>10b</option>
-			<option>10c</option>
-		</select>
-	      <textarea rows="10" cols="50" placeholder="Geben Sie hier Ihren Kommentar ein..."></textarea>
+        <h2>für <b>Frühh Leonardo 5a</b></h2>
+        <input type="date" value="24.05.2017">
+        <select>
+            <option>5a</option>
+            <option>10a</option>
+            <option>10b</option>
+            <option>10c</option>
+        </select>
+        <textarea rows="10" cols="50" placeholder="Geben Sie hier Ihren Kommentar ein..."></textarea>
         <span class="buttonColumn">
           <a class="button" href="javascript:history.back()">Abbrechen</a>
           <a class="button" href="./ViewStudentComments.html">Speichern</a>
         </span>
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
