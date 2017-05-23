@@ -154,6 +154,9 @@ tr:nth-child(odd) {
     text-transform: none;
     line-height: 1;
 }
+#tableHeader {
+    text-align: left;
+}
 td > a , th > a {
     color: #000;
     text-decoration: none;
