@@ -1,4 +1,4 @@
 # ServiceAsAService.github.io
 Website Repo
 
-https://serviceasasevice.github.io/ServiceAsAService/
+https://serviceasasevice.github.io
