@@ -91,8 +91,9 @@ tr:nth-child(odd) {
     -ms-user-select: none;
     user-select: none;
 }
-.dateYearRow{
+.dateYearRow,.dateMonthRow{
   justify-content: space-between;
+  display:flex;
 }
 .dateWrapper{
   width:300px;
@@ -109,7 +110,7 @@ tr:nth-child(odd) {
   color:#000;
   background: rgb(201, 241, 253);
 }
-.datePickerDayBox:not(:empty):hover {
+.dateDayBox:not(:empty):hover {
   background: #4b4;
   border-radius: 10px;
 }
