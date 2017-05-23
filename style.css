@@ -130,12 +130,14 @@ tr:nth-child(odd) {
     display: flex;
     position: relative;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
     flex-flow: row;
+    font-size:150%;
 }
 .overviewWrapper .button:after{
   content:'>';
   color:#000;
+  font-size:150%;
 }
 .buttonColumn {
     margin: 5px 0px 5px 0px;
