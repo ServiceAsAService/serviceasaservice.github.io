@@ -25,6 +25,7 @@ body{
   min-height: 80vh;
 }
 #dialogWindow {
+    min-width: 60vw;
     background: rgb(2,31,84);
     box-shadow: #000 0px 0px 10px;
     border-radius: 10px;
