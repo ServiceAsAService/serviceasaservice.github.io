@@ -98,6 +98,7 @@ tr:nth-child(odd) {
   border-radius: 10px;
   margin: 5px;
   display:block;
+  min-width:300px;
 }
 .dateDayBox
 {
