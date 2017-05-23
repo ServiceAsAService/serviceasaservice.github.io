@@ -192,10 +192,6 @@ tr:nth-child(odd) {
     line-height: 1;
 }
 
-#tableHeader {
-    text-align: left;
-}
-
 td > a, th > a {
     color: #000;
     text-decoration: none;
