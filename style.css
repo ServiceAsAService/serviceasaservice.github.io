@@ -126,9 +126,9 @@ tr:nth-child(odd) {
   display: flex;
   padding:2px;
 }
-#overviewWrapper{
+.overviewWrapper{
   display:flex;
 }
-.button#overviewWrapper{
+.overviewWrapper .button{
   width:100%;
 }
