@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Lehrer bearbeiten</title>
 </head>
+
 <body>
-<div id="topBar">
-    <a href="overview.html">
+    <nav id="topBar">
+        <a href="overview.html">
         <b>⟨⟨ Schülerverwaltung</b>
     </a>
-    <div>
-        Sie sind angemeldet als <b>Frank Müller</b>
-        <a class="button" href="index.html">Logout</a>
-    </div>
-</div>
-<div id="contentBox">
-    <div id="dialogWindow">
-        <h1>Lehrer bearbeiten:</h1>
-        <input type="text" placeholder="Benutzername" value="Müller"/>
-        <input type="text" placeholder="Name" value="Frank"/>
-        <input type="text" placeholder="Vorname" value="muellerf"/>
-        <span class="buttonColumn">
+        <div>
+            Sie sind angemeldet als <b>Frank Müller</b>
+            <a class="button" href="index.html">Logout</a>
+        </div>
+    </nav>
+    <div id="contentBox">
+        <form id="dialogWindow" action="javascript:history.back()">
+            <h1>Lehrer bearbeiten:</h1>
+            <input type="text" placeholder="Benutzername" value="Müller" minlength="4" pattern="[A-z0-9]+" required/>
+            <input type="text" placeholder="Name" value="Frank" minlength="2" required/>
+            <input type="text" placeholder="Vorname" value="muellerf" minlength="2" required/>
+            <span class="buttonColumn">
           <a class="button" href="javascript:history.back()">Abbrechen</a>
-          <a class="button" href="javascript:history.back()">Weiter</a>
+          <input type="submit" value="Weiter"/>
         </span>
+        </form>
     </div>
-</div>
 </body>
+
 </html>
