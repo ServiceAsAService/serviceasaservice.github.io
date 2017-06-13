@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Schülerverwaltung</title>
 </head>
+
 <body>
-<div id="topBar">
-    <b>Schülerverwaltung</b>
-    <div>Bitte melden sie sich an.</div>
-</div>
-<div id="contentBox">
-    <div id="dialogWindow">
-        <h1>Schülerverwaltung</h1>
-        <input type="text" placeholder="Benutzername"/>
-        <input type="password" placeholder="Passwort"/>
-        <span class="buttonColumn">
-          <a class="button" href="ChangePassword.html">Passwort vergessen</a>
-          <a class="button" href="overview.html">Anmelden</a>
+    <nav id="topBar">
+        <b>Schülerverwaltung</b>
+        <div>Bitte melden sie sich an.</div>
+    </nav>
+    <div id="contentBox">
+        <form id="dialogWindow" action="overview.html">
+            <h1>Schülerverwaltung</h1>
+            <input type="text" placeholder="Benutzername" minlength="4" pattern="[A-z0-9]+" required/>
+            <input type="password" placeholder="Passwort" minlength="8" required/>
+            <span class="buttonColumn">
+            <a class="button" href="ChangePassword.html">Passwort vergessen</a>
+            <input type="submit" class="button" value="Anmelden"/>
+          <!--
+          <a class="button" href="overview.html">Anmelden</a>-->
         </span>
+        </form>
     </div>
-</div>
 </body>
+
 </html>

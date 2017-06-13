@@ -52,17 +52,39 @@ input, .button, select, option {
     box-shadow: #000 0 0 5px;
 }
 
-.button {
+input[type="password"]:invalid:focus ,
+input[type="password"]:invalid:hover,
+input[type="text"]:invalid:focus ,
+input[type="text"]:invalid:hover,
+select:invalid:focus,
+select:invalid:hover{
+    transition: 0.3s linear box-shadow;
+    box-shadow: #f00 0 0 5px, #f00 0 0 15px;
+}
+input[type="password"]:valid:focus ,
+input[type="password"]:valid:hover,
+input[type="text"]:valid:focus ,
+input[type="text"]:valid:hover,
+select:valid:focus,
+select:valid:hover
+{
+    transition: 0.3s linear box-shadow;
+    box-shadow: #0f0 0 0 5px, #0f0 0 0 15px;
+}
+
+input[type="submit"],.button{
+    font-size: 16px;
+    text-decoration: none;
     transition: all 0.3s linear;
     padding: 3px 8px;
     font-weight: bold;
     background: #9ebdef;
     color: #000000;
 }
-
 input[type="submit"]:active, .button:active {
     background: #fff;
-    transition: all 0.5s linear;
+    transition: background-color 0.5s linear;
+
 }
 
 h1 {

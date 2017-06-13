@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Kommentar bearbeiten</title>
 </head>
+
 <body>
-<div id="topBar">
-    <a href="overview.html">
+    <nav id="topBar">
+        <a href="overview.html">
         <b>⟨⟨ Schülerverwaltung</b>
     </a>
-    <div>
-        Sie sind angemeldet als <b>Frank Müller</b>
-        <a class="button" href="index.html">Logout</a>
-    </div>
-</div>
-<div id="contentBox">
-    <div id="dialogWindow">
-        <h1>Kommentar bearbeiten:</h1>
-        <table>
-            <tr>
-                <th>Nachname</th>
-                <th>Vorname</th>
-                <th>Klasse</th>
-            </tr>
-            <tr>
-                <td>Frühh</td>
-                <td>Leonardo</td>
-                <td>5a</td>
-            </tr>
-        </table>
-        <textarea rows="10" cols="50"
-                  placeholder="Geben Sie hier Ihren Kommentar ein...">Schüler störte den Unterricht</textarea>
-        <span class="buttonColumn">
+        <div>
+            Sie sind angemeldet als <b>Frank Müller</b>
+            <a class="button" href="index.html">Logout</a>
+        </div>
+    </nav>
+    <div id="contentBox">
+        <form id="dialogWindow" action="ViewStudentComments.html">
+            <h1>Kommentar bearbeiten:</h1>
+            <table>
+                <tr>
+                    <th>Nachname</th>
+                    <th>Vorname</th>
+                    <th>Klasse</th>
+                </tr>
+                <tr>
+                    <td>Frühh</td>
+                    <td>Leonardo</td>
+                    <td>5a</td>
+                </tr>
+            </table>
+            <textarea rows="10" cols="50" placeholder="Geben Sie hier Ihren Kommentar ein...">Schüler störte den Unterricht</textarea>
+            <span class="buttonColumn">
           <a class="button" href="javascript:history.back()">Abbrechen</a>
-          <a class="button" href="./ViewStudentComments.html">Speichern</a>
+          <input type="submit" value="Speichern"/>
         </span>
+        </form>
     </div>
-</div>
 </body>
+
 </html>
